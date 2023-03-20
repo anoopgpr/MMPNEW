@@ -1,0 +1,87 @@
+.bg_main {
+	background: #000000 !important
+}
+.toggle_text {
+	color: #FFFFFF;
+}
+.text_primary {
+	color: #FFFFFF
+}
+.bg_primary {
+	background: #FFFFFF
+}
+.profilereg {
+    color: #fff;
+}
+.header {
+    background-color: #000000 !important;
+}
+.notification_btn span {
+    border: 2px solid #000000;
+}
+.q_m_11 {
+    background: #000000
+}
+.header_title {
+	color: #3399cc
+}
+.text_failpage {
+	color: #FFFFFF
+}
+.mode_block {
+	color: #FFFFFF
+}
+/*.per_block {
+    color: #fff;
+}*/
+.sidebar {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+    box-shadow: inset 0 0 7px 0px #ffffff59;
+}
+.side_bar_links ul li a {
+    border-bottom: 1px solid #7d7d7d;
+    color: #eeeeee !important;
+}
+.side_bar_top {
+	color: #FFFFFF
+}
+.coupon_block_inner {
+    color: #000;
+    background: #fff;
+}
+.btn_primary2 {
+    background: #000;
+    color: #fff !important;
+}
+.profile_pic_inner {
+	border: 2px solid #ddd
+}
+.mode_block {    
+    border-bottom: 1px solid #7d7d7d;
+}
+.faq_content {
+	color: #FFFFFF
+}
+.query_section {
+    color: #fff;
+}
+.profile_input input, .profile_input textarea {
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.profile_select select {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+div#spec {
+    color: #fff;
+}
+.start_animation {
+	background: #000000
+}
+.sub_menu ul li a {
+    border-top: 1px solid #7d7d7d
+}
+.notification_overlay {
+	background:#00000029;
+}

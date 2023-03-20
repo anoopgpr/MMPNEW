@@ -1,0 +1,103 @@
+.bg_main {
+	background: #f6f3f2 !important
+}
+.toggle_text {
+	color: #000000;
+}
+.text_primary {
+	color: #000000
+}
+.bg_primary {
+	background: #000000
+}
+.profilereg {
+    color: #000000;
+}
+.vehicle_details {
+	/*color: #FFFFFF*/
+}
+.text_failpage {
+	color: #000000
+}
+.header {
+    background-color: #ffffff !important;
+}
+.notification_btn span {
+    border: 2px solid #fff;
+}
+.q_m_11 {
+    background: #ffffff
+}
+.vin_details {
+    /*border: 1px solid #dddddd;*/
+}
+.header_title {
+	color: #000000
+}
+.profile_pic_inner {
+	border: 2px solid #ddd
+}
+.sidebar {
+    background-color: #ffffff !important;
+    box-shadow: 0 0 13px 2px #00000059;
+}
+.side_bar_links ul li a {
+    color: #000000 !important;
+}
+.side_bar_top {
+	color: #000000
+}
+.footer_personalize {
+    background: #fff !important;
+}
+.side_bar_links ul li a .icon_sidebar img {
+	filter: contrast(0)
+}
+.sub_menu ul li a {
+    border-top: 1px solid #d6d6d6;
+}
+/*.coupon_block_inner {
+    color: #fff;
+    background: #3399cc;
+}
+.btn_primary2 {
+    background: #FFFFFF;
+    color: #000000 !important;
+}
+.btn_primary {
+	background: #000000;
+    color: #FFFFFF !important;
+}*/
+.faq_content {
+	color: #000000
+}
+.mode_block {
+}
+.query_section {
+    color: #000;
+}
+.profile_input input, .profile_input textarea {
+    color: #000000;
+}
+.profile_input input::-webkit-input-placeholder {
+    color: #3F3F3F;
+}
+.profile_select select {
+    color: #000000;
+}
+div#spec {
+    color: #000000;
+}
+.light_btn {
+	background: #000000 !important;
+	color: #FFFFFF !important
+}
+.per_block {
+    color: #000;
+}
+.start_animation {
+	background: #FFFFFF
+}
+.notification_overlay {
+	background: #0000001f;
+}

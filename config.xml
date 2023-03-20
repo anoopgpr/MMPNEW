@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:rim="http://www.blackberry.com/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.mobiquest.mmphyundai" version="2.4.8" android-versionCode="42">
+  <name>Hyundai Mobility Membership</name>
+  <author href="http://www.mloyal.com/" rim:copyright="Copyright 2014 Mobiquest Mobile Technologies">Mobiquest Mobile Technologies</author>
+  <description>Hyundai Mobility Membership</description>
+  <feature name="http://api.phonegap.com/1.0/network"/>
+  <feature name="http://api.phonegap.com/1.0/file"/>
+  <feature name="http://api.phonegap.com/1.0/camera"/>
+  <feature name="http://api.phonegap.com/1.0/media"/>
+  <feature name="http://api.phonegap.com/1.0/device"/>
+  <feature name="http://api.phonegap.com/1.0/file"/>
+  <feature name="http://api.phonegap.com/1.0/notification"/>
+  <feature name="InAppBrowser">
+    <param name="ios-package" value="CDVInAppBrowser"/>
+  </feature>
+  <feature name="Contacts">
+    <param name="ios-package" value="CDVContacts"/>
+  </feature>
+  <!--<feature name="Geolocation">
+    <param name="ios-package" value="CDVLocation"/>
+  </feature>-->
+  <feature name="SplashScreen">
+    <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen"/>
+    <param name="onload" value="true"/>
+  </feature>
+  <preference name="phonegap-version" value="cli-10.0.0"/>
+  <preference name="AndroidPersistentFileLocation" value="Compatibility"/>
+  <preference name="SplashScreen" value="screen"/>
+  <preference name="SplashShowOnlyFirstTime" value="false"/>
+  <preference name="LoadingDialog" value="Please wait, the app is loading"/>
+  <!-- all: default means both landscape and portrait are enabled -->
+  <!-- all: possible values handset, tablet, or universal -->
+  <!-- all: hides the status bar at the top of the screen -->
+  <preference name="android-windowSoftInputMode" value="adjustResize"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="prerendered-icon" value="true"/>
+  <preference name="stay-in-webview" value="false"/>
+  <preference name="ios-statusbarstyle" value="black-opaque"/>
+  <preference name="detect-data-types" value="true"/>
+  <preference name="exit-on-suspend" value="false"/>
+  <!-- ios: if set to true, app will terminate when home button is pressed -->
+  <preference name="disable-cursor" value="false"/>
+  <preference name="android-installLocation" value="auto"/>
+  <preference name="StatusBarOverlaysWebView" value="true"/>
+  <preference name="android-targetSdkVersion" value="29"/>
+  <icon src="icon.png"/>
+  <platform name="android">
+    <!--<icon src="res/icon/android/ldpi.png"  density="ldpi" />
+		<icon src="res/icon/android/mdpi.png"  density="mdpi" />
+		<icon src="res/icon/android/hdpi.png"  density="hdpi" />
+		<icon src="res/icon/android/xhdpi.png" density="xhdpi" />-->
+    <icon background="res/icon/android/ldpi.png" density="ldpi" foreground="res/icon/android/ldpi.png" src="res/icon/android/ldpi.png"/>
+    <icon background="res/icon/android/mdpi.png" density="mdpi" foreground="res/icon/android/mdpi.png" src="res/icon/android/mdpi.png"/>
+    <icon background="res/icon/android/hdpi.png" density="hdpi" foreground="res/icon/android/hdpi.png" src="res/icon/android/hdpi.png"/>
+    <icon background="res/icon/android/xhdpi.png" density="xhdpi" foreground="res/icon/android/xhdpi.png" src="res/icon/android/xhdpi.png"/>
+    <splash src="/res/screen/android/screen-ldpi-portrait.png" density="port-ldpi"/>
+    <splash src="/res/screen/android/screen-mdpi-portrait.png" density="port-mdpi"/>
+    <splash src="/res/screen/android/screen-hdpi-portrait.png" density="port-hdpi"/>
+    <splash src="/res/screen/android/screen-xhdpi-portrait.png" density="port-xhdpi"/>
+    <splash src="/res/screen/android/screen-mdpi-portrait.png" density="mdpi"/>
+    <preference name="AndroidXEnabled" value="false"/>
+  </platform>
+  <platform name="ios">
+    <preference name="AllowInlineMediaPlayback" value="true"/>
+    <preference name="AllowUntrustedCerts" value="on"/>
+    <preference name="InterceptRemoteRequests" value="all"/>
+    <preference name="NativeXHRLogging" value="full"/>
+    <preference name="AllowUntrustedCerts" value="on"/>
+    <preference name="InterceptRemoteRequests" value="all"/>
+    <preference name="NativeXHRLogging" value="full"/>
+    <icon src="res/icon/ios/icon-57.png" width="57" height="57"/>
+    <icon src="res/icon/ios/icon-57-2x.png" width="114" height="114"/>
+    <icon src="res/icon/ios/icon-72.png" width="72" height="72"/>
+    <icon src="res/icon/ios/icon-72-2x.png" width="144" height="144"/>
+    <icon src="res/icon/ios/icon-60.png" width="60" height="60"/>
+    <icon src="res/icon/ios/icon-60-2x.png" width="120" height="120"/>
+    <icon src="res/icon/ios/icon-76.png" width="76" height="76"/>
+    <icon src="res/icon/ios/icon-76-2x.png" width="152" height="152"/>
+    <icon src="res/icon/ios/Icon-Small-40.png" width="40" height="40"/>
+    <icon src="res/icon/ios/Icon-83.5@2x.png" width="167" height="167"/>
+    <icon src="res/icon/ios/iTunesArtwork@2x.png" width="1024" height="1024"/>
+    <splash src="/res/ios/screen/Default@2x~universal~anyany.png"/>
+    <preference name="scheme" value="monaca-app"/>
+    <preference name="hostname" value="localhost"/>
+    <icon src="/res/ios/icon/icon-20.png" width="20" height="20"/>
+  </platform>
+  <platform name="android">
+    <resource-file src="google-services.json" target="app/google-services.json"/>
+  </platform>
+  <platform name="ios">
+    <resource-file src="GoogleService-Info.plist"/>
+    <preference name="orientation" value="portrait"/>
+  </platform>
+  <platform name="ios"/>
+  <platform name="android">
+    <splash src="res/screen/android/screen-ldpi-portrait.png" density="ldpi"/>
+    <splash src="res/screen/android/screen-hdpi-portrait.png" density="hdpi"/>
+    <splash src="res/screen/android/screen-xhdpi-portrait.png" density="xhdpi"/>
+    <splash src="res/screen/android/screen-ldpi-landscape.png" density="land-ldpi"/>
+    <splash src="res/screen/android/screen-mdpi-landscape.png" density="land-mdpi"/>
+    <splash src="res/screen/android/screen-hdpi-landscape.png" density="land-hdpi"/>
+    <splash src="res/screen/android/screen-xhdpi-landscape.png" density="land-xhdpi"/>
+  </platform>
+  <platform name="ios">
+    <!-- 1334x1334 -->
+    <splash src="res/screen/ios/Default@2x~iphone~anyany.png"/>
+    <!-- 750x1334 -->
+    <splash src="res/screen/ios/Default@2x~iphone~comany.png"/>
+    <!-- 1334x750 -->
+    <splash src="res/screen/ios/Default@2x~iphone~comcom.png"/>
+    <!-- 2208x2208-->
+    <splash src="res/screen/ios/Default@3x~iphone~anyany.png"/>
+    <!-- 2208x1242 -->
+    <splash src="res/screen/ios/Default@3x~iphone~anycom.png"/>
+    <!-- 1242x2208 -->
+    <splash src="res/screen/ios/Default@3x~iphone~comany.png"/>
+    <!-- 2732x2732 -->
+    <splash src="res/screen/ios/Default@2x~ipad~anyany.png"/>
+    <!-- 1278x2732 -->
+    <splash src="res/screen/ios/Default@2x~ipad~comany.png"/>
+  </platform>
+  <gap:plugin name="cordova-plugin-inappbrowser" source="npm"/>
+  <gap:plugin name="cordova-plugin-whitelist" source="npm"/>
+  <gap:plugin name="cordova-plugin-device" source="npm"/>
+  <gap:plugin name="cordova-plugin-network-information" source="npm"/>
+  <gap:plugin name="cordova-plugin-splashscreen" source="npm"/>
+  <gap:plugin name="cordova-plugin-dialogs" source="npm"/>
+  <gap:plugin name="cordova-plugin-file" source="npm"/>
+  <gap:plugin name="cordova-plugin-screen-orientation" source="npm"/>
+  <!--<gap:plugin name="cordova-plugin-file-transfer" source="npm"/>-->
+  <gap:plugin name="cordova-plugin-android-permissions" source="npm"/>
+  <gap:plugin name="cordova-plugin-camera" spec="2.4.1" source="npm"/>
+  <gap:plugin name="cordova-plugin-media-capture" source="npm"/>
+  <gap:plugin name="cordova-plugin-media" source="npm"/>
+  <plugin name="phonegap-plugin-push" spec="2.2.3" source="npm"/>
+  <gap:plugin name="cordova-plugin-android-rootbeer" source="npm"/>
+  <gap:plugin name="cordova-plugin-signature-fingerprint" source="npm"/>
+  <gap:plugin name="cordova-plugin-wkwebview-engine" source="npm"/>
+  <gap:plugin name="cordova-plugin-wkwebview-file-xhr" source="npm"/>
+  <gap:plugin name="cordova-plugin-safariviewcontroller" source="npm"/>
+  <gap:plugin name="cordova plugin add cordova-plugin-iosrtcr" source="npm"/>
+  <!--
+		
+	<gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
+	 <plugin name="phonegap-plugin-push" spec="2.1.3" source="npm" />
+	
+	
+	
+	<plugin name="cordova-android-support-gradle-release" source="npm">
+		<variable name="ANDROID_SUPPORT_VERSION" value="28.0.0"/>
+	</plugin>
+	
+	<gap:plugin name="cordova-plugin-androidx" source="npm" />
+	<gap:plugin name="cordova-plugin-androidx-adapter" source="npm" />-->
+  <!--<gap:plugin name="cordova-plugin-sms" source="npm" />-->
+  <!--<gap:plugin name="cordova-plugin-enable-multidex" source="npm" />-->
+  <!--gap:plugin name="cordova-plugin-request-location-accuracy" source="npm" /-->
+  <!--<gap:plugin name="cordova-uxcam" source="npm" />-->
+  <gap:plugin name="cordova-plugin-globalization" source="npm"/>
+  <edit-config file="*-Info.plist" mode="merge" target="UIStatusBarHidden">
+    <true/>
+  </edit-config>
+  <edit-config file="*-Info.plist" mode="merge" target="UIViewControllerBasedStatusBarAppearance">
+    <false/>
+  </edit-config>
+  <edit-config target="CFBundleShortVersionString" file="*-Info.plist" mode="merge">
+    <string>44</string>
+  </edit-config>
+  <edit-config platform="ios" target="NSCameraUsageDescription" file="*-Info.plist" mode="merge">
+    <string>The permissions is required to set profile picture</string>
+  </edit-config>
+  <edit-config platform="ios" target="NSPhotoLibraryUsageDescription" file="*-Info.plist" mode="merge">
+    <string>PhotoLibrary Access permissions is required to set profile picture</string>
+  </edit-config>
+  <!--<edit-config platform="ios"  target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+    <string>need location access to find things nearby</string>
+  </edit-config>-->
+  <rim:permissions>
+    <rim:permit>use_camera</rim:permit>
+  </rim:permissions>
+  <content src="index.html"/>
+  <allow-intent href="*"/>
+  <allow-intent href="http://*/*"/>
+  <allow-intent href="https://*/*"/>
+  <allow-intent href="tel:*"/>
+  <!--<allow-intent href="sms:*" />-->
+  <preference name="WindowsStorePublisherName" value="My Name"/>
+  <preference name="WindowsStoreIdentityName" value="12be7fa9-9123-bd29-8a29-00ff3b1feb16"/>
+  <edit-config target="NSPhotoLibraryAddUsageDescription" file="*-Info.plist" mode="merge">
+    <string>need to photo library access to save pictures there</string>
+  </edit-config>
+  <edit-config target="NSMicrophoneUsageDescription" file="*-Info.plist" mode="merge">
+    <string>need microphone access to record sounds</string>
+  </edit-config>
+  <allow-navigation href="*youtube*"/>
+  <allow-navigation href="*ytimg*"/>
+  <preference name="KeepRunning" value="true"/>
+  <preference name="monaca:AndroidIsPackageNameSeparate" value="false"/>
+  <preference name="Orientation" value="default"/>
+  <preference name="SplashScreenDelay" value="6000"/>
+  <preference name="Fullscreen" value="false"/>
+  <preference name="MediaTypesRequiringUserActionForPlayback" value="false"/>
+  <preference name="target-device" value="universal"/>
+  <preference name="AutoHideSplashScreen" value="true"/>
+  <preference name="FadeSplashScreen" value="false"/>
+  <preference name="ShowSplashScreenSpinner" value="true"/>
+  <access origin="*"/>
+  <allow-navigation href="https://*/*"/>
+  <access origin="http://180.179.202.114/" subdomains="true"/>
+  <access origin="http://103.25.128.61/" subdomains="true"/>
+  <access origin="https://www.hyundai.com/in/en" subdomains="true"/>
+  <access origin="http://mmpdev.hyundai.co.in/autoever/" subdomains="true"/>
+  <access origin="https://www.zoomcar.com/" subdomains="true"/>
+  <access origin="http://xceedfbapps.com/" subdomains="true"/>
+  <access origin="http://www.youtube.com/embed/" subdomains="true"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="EnableViewportScale" value="false"/>
+</widget>

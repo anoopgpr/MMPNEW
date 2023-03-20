@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Hyundai Sans Text Office';
+    src: url('HyundaiSansTextOffice-Regular.eot');
+    src: url('HyundaiSansTextOffice-Regular.eot?#iefix') format('embedded-opentype'),
+        url('HyundaiSansTextOffice-Regular.woff2') format('woff2'),
+        url('HyundaiSansTextOffice-Regular.woff') format('woff'),
+        url('HyundaiSansTextOffice-Regular.ttf') format('truetype'),
+        url('HyundaiSansTextOffice-Regular.svg#HyundaiSansTextOffice-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hyundai Sans Head Office';
+    src: url('HyundaiSansHeadOffice-Regular.eot');
+    src: url('HyundaiSansHeadOffice-Regular.eot?#iefix') format('embedded-opentype'),
+        url('HyundaiSansHeadOffice-Regular.woff2') format('woff2'),
+        url('HyundaiSansHeadOffice-Regular.woff') format('woff'),
+        url('HyundaiSansHeadOffice-Regular.ttf') format('truetype'),
+        url('HyundaiSansHeadOffice-Regular.svg#HyundaiSansHeadOffice-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hyundai Sans Head Office';
+    src: url('HyundaiSansHeadOffice-Light.eot');
+    src: url('HyundaiSansHeadOffice-Light.eot?#iefix') format('embedded-opentype'),
+        url('HyundaiSansHeadOffice-Light.woff2') format('woff2'),
+        url('HyundaiSansHeadOffice-Light.woff') format('woff'),
+        url('HyundaiSansHeadOffice-Light.ttf') format('truetype'),
+        url('HyundaiSansHeadOffice-Light.svg#HyundaiSansHeadOffice-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hyundai Sans Text Office';
+    src: url('HyundaiSansTextOffice-Italic.eot');
+    src: url('HyundaiSansTextOffice-Italic.eot?#iefix') format('embedded-opentype'),
+        url('HyundaiSansTextOffice-Italic.woff2') format('woff2'),
+        url('HyundaiSansTextOffice-Italic.woff') format('woff'),
+        url('HyundaiSansTextOffice-Italic.ttf') format('truetype'),
+        url('HyundaiSansTextOffice-Italic.svg#HyundaiSansTextOffice-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hyundai Sans Head Office';
+    src: url('HyundaiSansHeadOfficeMedium.eot');
+    src: url('HyundaiSansHeadOfficeMedium.eot?#iefix') format('embedded-opentype'),
+        url('HyundaiSansHeadOfficeMedium.woff2') format('woff2'),
+        url('HyundaiSansHeadOfficeMedium.woff') format('woff'),
+        url('HyundaiSansHeadOfficeMedium.ttf') format('truetype'),
+        url('HyundaiSansHeadOfficeMedium.svg#HyundaiSansHeadOfficeMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hyundai Sans Head Office';
+    src: url('HyundaiSansHeadOffice-Bold.eot');
+    src: url('HyundaiSansHeadOffice-Bold.eot?#iefix') format('embedded-opentype'),
+        url('HyundaiSansHeadOffice-Bold.woff2') format('woff2'),
+        url('HyundaiSansHeadOffice-Bold.woff') format('woff'),
+        url('HyundaiSansHeadOffice-Bold.ttf') format('truetype'),
+        url('HyundaiSansHeadOffice-Bold.svg#HyundaiSansHeadOffice-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hyundai Sans Text Office';
+    src: url('HyundaiSansTextOffice-Medium.eot');
+    src: url('HyundaiSansTextOffice-Medium.eot?#iefix') format('embedded-opentype'),
+        url('HyundaiSansTextOffice-Medium.woff2') format('woff2'),
+        url('HyundaiSansTextOffice-Medium.woff') format('woff'),
+        url('HyundaiSansTextOffice-Medium.ttf') format('truetype'),
+        url('HyundaiSansTextOffice-Medium.svg#HyundaiSansTextOffice-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hyundai Sans Text Office';
+    src: url('HyundaiSansTextOffice-BoldItalic.eot');
+    src: url('HyundaiSansTextOffice-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('HyundaiSansTextOffice-BoldItalic.woff2') format('woff2'),
+        url('HyundaiSansTextOffice-BoldItalic.woff') format('woff'),
+        url('HyundaiSansTextOffice-BoldItalic.ttf') format('truetype'),
+        url('HyundaiSansTextOffice-BoldItalic.svg#HyundaiSansTextOffice-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hyundai Sans Text Office';
+    src: url('HyundaiSansTextOffice-Bold.eot');
+    src: url('HyundaiSansTextOffice-Bold.eot?#iefix') format('embedded-opentype'),
+        url('HyundaiSansTextOffice-Bold.woff2') format('woff2'),
+        url('HyundaiSansTextOffice-Bold.woff') format('woff'),
+        url('HyundaiSansTextOffice-Bold.ttf') format('truetype'),
+        url('HyundaiSansTextOffice-Bold.svg#HyundaiSansTextOffice-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Hyundai Sans Text Office';
+    src: url('HyundaiSansTextOffice-MediumItalic.eot');
+    src: url('HyundaiSansTextOffice-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('HyundaiSansTextOffice-MediumItalic.woff2') format('woff2'),
+        url('HyundaiSansTextOffice-MediumItalic.woff') format('woff'),
+        url('HyundaiSansTextOffice-MediumItalic.ttf') format('truetype'),
+        url('HyundaiSansTextOffice-MediumItalic.svg#HyundaiSansTextOffice-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+

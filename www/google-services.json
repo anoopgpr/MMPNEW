@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "668824291290",
+    "firebase_url": "https://mmp-hyundai-app.firebaseio.com",
+    "project_id": "mmp-hyundai-app",
+    "storage_bucket": "mmp-hyundai-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668824291290:android:371974ab3ba019fa47a2e3",
+        "android_client_info": {
+          "package_name": "com.mobiquest.mmphyundai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668824291290-hes6oj8a2mdq2q55575ktv3i7h4v0q7k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_438sGXPxdDSsZOGETsNyICOUjkxiTfU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668824291290-hes6oj8a2mdq2q55575ktv3i7h4v0q7k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
